@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+_archive/
+
+# Environment variables
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+
+# Credentials and sensitive information (DO NOT COMMIT!)
+CREDENTIALS.md
+CREDENTIALS.local.md
+*.credentials.md
+.env.*.local
+
+# Old backup files
+README.old.md
+Plugins.php.backup
+*.backup
+*.old

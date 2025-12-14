@@ -1,0 +1,10 @@
+{
+    "name": "leantime/blog",
+    "description": "A comprehensive blog plugin for Leantime",
+    "type": "leantime-plugin",
+    "autoload": {
+        "psr-4": {
+            "Leantime\\Plugins\\Blog\\": ""
+        }
+    }
+}
