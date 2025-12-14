@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Response;
 /**
  * Blog List Controller
  */
-class List extends Controller
+class PostList extends Controller
 {
     /**
      * GET /blog/list
