@@ -51,7 +51,7 @@ class register
                 'title' => 'Blog',
                 'icon' => 'fa fa-newspaper-o',
                 'tooltip' => 'Manage blog posts',
-                'href' => '/blog/showList',
+                'href' => '/blog/list',
             ],
             'personal', // Personal menu section (left sidebar)
             [90] // Position after other items
@@ -63,7 +63,7 @@ class register
                 'title' => 'Blog',
                 'icon' => 'fa fa-newspaper-o',
                 'tooltip' => 'Blog posts',
-                'href' => '/blog/showList',
+                'href' => '/blog/list',
             ],
             'default', // Default project menu
             [45] // Position in menu
